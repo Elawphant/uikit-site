@@ -29,6 +29,15 @@ The tab component consists of clickable tabs, that are aligned side by side in a
 </ul>
 ```
 
+## Tab component for urls
+If you would like to use tab component for links, instead use `uk-tab` class on `<ul>` element without `uk-tab` attribute, e.g. `<ul class="uk-tab">` and add `uk-active` class on the active list item `<li>`. `uk-tab` attribute needs be avoided to ensure the links work.
+
+```example
+<ul class="uk-tab">
+    <li class="uk-active"><a href="https://getuikit.com/docs/tab">This page</a></li>
+</ul>
+```
+
 ***
 
 ## Bottom modifier
